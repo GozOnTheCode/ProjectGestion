@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="dashboard">
+        <h1 class="title">Project Teams</h1>
+            <div class="all-people">
+                <div class="people">
+                    <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av264.jpg" alt="">
+                    <p class="p-people">Erwan</p>
+                </div>
+                <div class="people">
+                    <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av208.jpg" alt="">
+                    <p class="p-people">Florian</p>
+                </div>
+                <div class="people">
+                    <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av132.jpg" alt="">
+                    <p class="p-people">William</p>
+                </div>
+                <div class="people">
+                    <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av98.jpg" alt="">
+                    <p class="p-people">Claire</p>
+                </div>
+                <div class="people">
+                    <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av6.jpg" alt="">
+                    <p class="p-people">Candice</p>
+                </div>
+            </div>
+            <p class="copyright"></p>
+        </div>
+
+        <div class="header-project">
+            <header>    
+                <h1 class="h1-liste">Liste des projets</h1>
+
+                <nav>
+                    <ul class="filter-todo">
+                        <select name="todo" class="filter-todo">
+                            <option value="all">Toutes</option>
+                            <option value="completed">Terminé</option>
+                            <option value="uncompleted">En cours</option>
+                        </select>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="add-project">
+            <input type="text" name="add" class="add" placeholder="Ajouter un projets">
+            <button class="add-button"><i class="fas fa-plus"></i></button>
+
+            <div class="todo-container">
+                <ul class="todo-list"></ul>
+            </div>
+        </div>
+
+        <div class="div-recenly">
+
+            <div class="text-recenly">
+                <h1 class="h1-recenly">Activité Récente</h1>
+                <div class="people-recenly">
+                    <div class="container-1">
+                        <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av6.jpg" alt="">
+                        <p class="p-recenly">Candice a récemment ajouté "Faire App React" |</p>
+                    </div>
+                </div>
+                <div class="people-recenly">
+                    <div class="container-1">
+                        <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av208.jpg" alt="">
+                        <p class="p-recenly">Florian a récemment ajouté "Terminé Wojo" |</p>
+                    </div>
+                </div>
+                <div class="people-recenly">
+                    <div class="container-1">
+                        <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av264.jpg" alt="">
+                        <p class="p-recenly">Erwan a récemment ajouté "Faire Site Plante" |</p>
+                    </div>
+                </div>
+                <div class="people-recenly">
+                    <div class="container-1">
+                        <img class="img-people" src="https://www.codeur.com/tuto/wp-content/themes/breek-child/static/images/av98.jpg" alt="">
+                        <p class="p-recenly">Claire a récemment ajouté "Commencer Dart App" |</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="graphique">
+            <div class="text-recenly">
+                <h1 class="h1-graphique">Graphique Entreprise</h1>
+                <div class="div-graphique">
+                    <div class="pie"></div>
+                    <p class="span-graphique">50% / 50%</p>
+                    <p class="p-graphique">Ce graphique est le graphique correspondant<br>a notre avancement durant cette derniere semaine !</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
